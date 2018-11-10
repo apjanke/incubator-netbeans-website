@@ -20,11 +20,11 @@
 :jbake-type: page
 :jbake-tags: community
 :jbake-status: published
-:keywords: Submitting pull requests to Apache NetBeans 
-:description: Submitting pull requests to Apache NetBeans 
+:keywords: Submitting pull requests to Apache NetBeans
+:description: Submitting pull requests to Apache NetBeans
 :toc: left
 :toclevels: 4
-:toc-title: 
+:toc-title:
 
 [contributing-code]
 Contributing code to the Apache NetBeans project is not very different to contributing code for any other Apache software project,
@@ -34,7 +34,7 @@ We follow link:https://www.apache.org/foundation/policies/conduct.html[the Apach
 
 We appreciate new contributors to adhere to the following guidelines, to make things easier for all of us:
 
-. Before starting to code, it is a good practice to open an issue (PTR) first in our link:https://issues.apache.org/jira/projects/NETBEANS/summary[JIRA] instance, and discuss the problem in the developer mailing list (see link:/community/mailing-lists.html[mailing lists]), giving the reason for submitting your pull request so that it is clear and more experienced members can suggest appropriate solutions/ideas.  
+. Before starting to code, it is a good practice to open an issue (PTR) first in our link:https://issues.apache.org/jira/projects/NETBEANS/summary[JIRA] instance, and discuss the problem in the developer mailing list (see link:/community/mailing-lists.html[mailing lists]), giving the reason for submitting your pull request so that it is clear and more experienced members can suggest appropriate solutions/ideas.
 . All commits must include the author's full name and email address. For *important modifications* you will need to submit an link:https://www.apache.org/licenses/icla.pdf[Individual Contributor License Agreement (ICLA)].
 . All new files must include the Apache Software Foundation license header. See any NetBeans source code in case of doubt.
 . All commits must contain a meaningful commit message.
@@ -58,11 +58,11 @@ We appreciate new contributors to adhere to the following guidelines, to make th
 . Try to keep the code *readable, maintainable, easy to debug* and *performant*.
 
 == Learn to run and debug NetBeans IDE or Platform applications
-link:/participate/build-run-debug-tutorials.html[Watch a series of 5 short videos] (2 minutes on average) showing how to build, run and debug the NetBeans IDE or any NetBeans platform application from sources. 
+link:/participate/build-run-debug-tutorials.html[Watch a series of 5 short videos] (2 minutes on average) showing how to build, run and debug the NetBeans IDE or any NetBeans platform application from sources.
 
 == Contributing to Apache NetBeans in GitHub
 
-=== Boostraping (do this once)
+=== Bootstrapping (do this once)
 
 Since you don't have write permissions to the GitHub apache mirror, you need to
 fork https://github.com/apache/incubator-netbeans in GitHub, this is done using
@@ -98,7 +98,7 @@ Before you can start modifying or upgrading the NetBeans code in your repository
 
 You are now ready to start modifying the NetBeans code. Use `git commit` when appropriate. Note that the commit message related to JIRA issues must start with `[NETBEANS-<issue number>]`.
 
-- Use `git push -u origin mybranch` to create and push the `mybranch` branch in your GitHub fork. 
+- Use `git push -u origin mybranch` to create and push the `mybranch` branch in your GitHub fork.
 - Use `git push origin mybranch` afterwards.
 
 If you have submitted many different commits it's a good idea to squash them together. See link:#squash[squashing commits on pull requests] for help on this.
@@ -133,7 +133,7 @@ If the PR is merged into master as-is then all these commits will be in the mast
 
 https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
 
-After submission (and certainly after someone starts reviewing the PR) you shouldn't touch the PR's history. 
+After submission (and certainly after someone starts reviewing the PR) you shouldn't touch the PR's history.
 
 
 
